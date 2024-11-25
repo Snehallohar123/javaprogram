@@ -1,0 +1,26 @@
+package MyMath;
+public class TrignometricOp
+{
+  public void Show(double angleDegrees)
+  {  
+          
+        double angleRadians = Math.toRadians(angleDegrees);  
+         
+        double sinValue = Math.sin(angleRadians);  
+        double cosValue = Math.cos(angleRadians);  
+        double tanValue = Math.tan(angleRadians);  
+
+        double cosec=1/sinValue;
+        double sec=1/cosValue;
+        double cot=1/tanValue;        
+  
+        System.out.println("Angle: " + angleDegrees + " degrees");  
+        System.out.println("Sine: " + sinValue);  
+        System.out.println("Cosine: " + cosValue);  
+        System.out.println("Tangent: " + tanValue);
+        System.out.println("Cosec: " + cosec);  
+        System.out.println("Sec: " + sec);  
+        System.out.println("Cot: " + cot);
+
+  }
+}
